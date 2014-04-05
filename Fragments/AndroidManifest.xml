@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.psu.jjb24.navigationexample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.psu.jjb24.navigationexample.MainActivity"
+            android:label="@string/app_name" 
+            android:launchMode="singleTop">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.psu.jjb24.navigationexample.JokeActivity"
+            android:label="@string/title_activity_joke"
+            android:parentActivityName="edu.psu.jjb24.navigationexample.MainActivity" 
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.psu.jjb24.navigationexample.MainActivity" />
+        </activity>
+        <activity
+            android:name="edu.psu.jjb24.navigationexample.JokeActivity$PunchlineActivity"
+            android:label="@string/title_activity_joke"
+            android:parentActivityName="edu.psu.jjb24.navigationexample.JokeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.psu.jjb24.navigationexample.JokeActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtPersonSays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Android Says..." />
+
+        <ImageView
+            android:id="@+id/imgPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription=""
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:gravity="center" 
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="&quot;There is nothing as funny as a joke, whose appreciation requires CS knowledge.&quot;" />
+
+    </LinearLayout>

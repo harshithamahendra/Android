@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfigureActivity" >
+
+    <EditText
+        android:id="@+id/Maxteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailPassword"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/Maxteam" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Maxsubtask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/subtask" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Maxteam"
+        android:layout_below="@+id/Maxteam"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/taskno" />
+
+    <Button
+        android:id="@+id/emailPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="16dp"
+        android:onClick="emailPassword"
+        android:text="@string/emailPassword" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailPassword"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/emailPassword"
+        android:text="@string/save" 
+        android:onClick="save"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Maxsubtask"
+        android:layout_below="@+id/Maxsubtask"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/taskPassword"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+            android:title="Wise Quote">
+
+       <EditTextPreference
+            android:key="@string/pref_key_quote_author"
+            android:title="Quote Author"
+            android:summary="Enter an author of the quote on the main screen."
+            android:defaultValue="@string/pref_default_quote_author" />
+
+       <ListPreference
+	        android:key="@string/pref_key_quote_action"
+	        android:title="Quote Action"
+	        android:entries="@array/prefQuoteActionEntries"
+	        android:entryValues="@array/prefQuoteActionValues"
+	        android:defaultValue="@string/pref_default_quote_action" />
+       <EditTextPreference
+            android:key="@string/pref_key_quote_message"
+            android:title="Quote Message"
+            android:summary="Enter an author of the quote on the main screen."
+            android:defaultValue="@string/pref_default_quote_text" />
+       
+   </PreferenceCategory> 
+</PreferenceScreen>

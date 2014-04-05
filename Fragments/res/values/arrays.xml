@@ -1,0 +1,41 @@
+<resources>
+    <string-array name="TabTitles">
+        <item >After</item>
+        <item >Before</item>
+    </string-array>
+    <string-array name="JokeSetup">
+        <item>Why do programmers always mix up Halloween and Christmas?</item>
+        <item>\&quot;Knock, knock.\&quot;\n\n\&quot;Who\&apos;s there?\&quot;\n\nvery long pause...</item>
+        <item>A SQL query goes into a bar, walks up to two tables and asks, ...</item>
+        <item>How many programmers does it take to change a light bulb?</item>
+        <item>A physicist, an engineer and a programmer were in a car driving over a steep alpine pass when the brakes failed. The car was getting faster and faster, they were struggling to get round the corners and once or twice only the feeble crash barrier saved them from crashing down the side of the mountain. They were sure they were all going to die, when suddenly they spotted an escape lane. They pulled into the escape lane, and came safely to a halt.\n\nThe physicist said \&quot;We need to model the friction in the brake pads and the resultant temperature rise, see if we can work out why they failed\&quot;.</item>
+        <item>When your hammer is C++, ...</item>
+        <item>If you put a million monkeys at a million keyboards, one of them will eventually write a Java program.</item>
+        <item>If you put a million monkeys at a million keyboards, the first thing any of them will type is a</item>
+        <item>[\&quot;hip\&quot;,\&quot;hip\&quot;]</item>
+        <item>To truly understand what recursion is, ...</item>
+        <item>A guy is standing on the corner of the street smoking one cigarette after another. A lady walking by notices him and says\n\n\&quot;Hey, don\&apos;t you know that those things can kill you? I mean, didn\&apos;t you see the giant warning on the box?!\&quot;\n\n\&quot;That\&apos;s OK\&quot; says the guy, puffing casually \&quot;I\&apos;m a computer programmer\&quot;\n\n\&quot;So? What\&apos;s that got to do with anything?\&quot;</item>
+        <item>I called the janitor the other day to see what he could do about my dingy linoleum floor. He said he would have been happy to loan me a polisher, but that he had not the slightest idea what he had done with it. I told him not to worry about it - that as a programmer ...</item>
+        <item>These two strings walk into a bar and sit down. The bartender says, \&quot;So what\&apos;ll it be?\&quot;\n\nThe first string says, \&quot;I think I\&apos;ll have a beer quag fulk boorg jdk^CjfdLk jk3s d#f67howe%^U r89nvy owmc63^Dz x.xvcu\&quot;</item>
+        <item>Why is 07 the scariest number?</item>
+        <item>Two bytes meet. The first byte asks, \&quot;Are you ill?\&quot;</item>       
+    </string-array>
+    <string-array name="JokePunchline">
+        <item>Because Oct 31 == Dec 25!</item>
+        <item>\&quot;Java.\&quot;</item>
+        <item>\&quot;Can I join you?\&quot;</item>
+        <item>None, that is a hardware problem.</item>
+        <item>The engineer said \&quot;I think I\&apos;ve got a few spanners in the back. I\&apos;ll take a look and see if I can work out what\&apos;s wrong\&quot;.\n\nThe programmer said \&quot;Why don\&apos;t we get going again and see if it\&apos;s reproducible?\&quot;</item>
+        <item>everything begins to look like a thumb.</item>
+        <item>The rest of them will write Perl programs.</item>
+        <item>Unix command.</item>
+        <item>(hip hip array!)</item>
+        <item>you must first understand recursion.</item>
+        <item>\&quot;We don\&apos;t care about warnings. We only care about errors.\&quot;</item>
+        <item>it was not the first time I had experienced a buffer allocation failure due to a memory error.</item>
+        <item>\&quot;Please excuse my friend,\&quot; the second string says, \&quot;He isn\&apos;t null-terminated.\&quot;</item>
+        <item>Because 07 010 011?\n\n    Note to self:  Perhaps this is funnier in a different base...</item>
+        <item>The second byte replies, \&quot;No, just feeling a bit off.\&quot;</item>
+    </string-array>
+    
+</resources>

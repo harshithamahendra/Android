@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_joke_new"
+        android:orderInCategory="100"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/menu_joke_new"/>
+
+    <item
+        android:id="@+id/menu_joke_punchline"
+        android:orderInCategory="100"
+        android:showAsAction="withText|ifRoom"
+        android:title="@string/menu_joke_punchline"/>
+
+
+</menu>

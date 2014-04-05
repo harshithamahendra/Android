@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roboscore</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Admin">Administrator</string>
+    <string name="Judge">Judge</string>
+    <string name="welcome">Welcome! Please select your role</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scoring">ScoringActivity</string>
+    <string name="title_activity_judge">JudgeActivity</string>
+    <string name="title_activity_admin_task">AdminTaskActivity</string>
+    <string name="title_activity_login_fragment">LoginFragment</string>
+    <string name="password">Enter Password </string>
+    <string name="DefineTask">Define Task</string>
+    <string name="change_password">Change Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="logout">Logout</string>
+        
+    
+    
+    <string name="Configure">Configure Task</string>
+    <string name="Scores">Scores</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_scores">ScoresActivity</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="subtask">Number of subtasks</string>
+    <string name="taskno">Task Name</string>
+    <string name="taskPassword">Password for task</string>
+    <string name="timeLimit">Time Limit</string>
+    <string name="scoreLimit">Score Limit</string>
+    <string name="taskActivityLabel">Enter the following details for the task:</string>
+    <string name="subtaskLabel">For each subtask enter the following:</string>
+    <string name="enterPassword">Enter the password</string>
+        <string name="enterEmail">Enter the email id</string>
+        <string name="taskDescription">Description</string>
+        
+    
+    
+    <string name="save">SAVE</string>
+    <string name="Home">Home</string>
+    <string name="selectTask">What team are you scoring?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="title_activity_configure">ConfigureActivity</string>
+    <string name="Maxteam">Enter the no of teams</string>
+    <string name="emailPassword">e-mail password?</string>
+        <string name="enterScores">Enter the scores below:<!--  --></string>
+        
+     <string name="subtask1">Subtask1</string>
+            <string name="subtask2">Subtask2</string>
+         <string name="subtask3">Subtask3</string>
+         <string name="dialog_title">CONFIRM?</string>
+         <string name="toast1">saving score....</string>
+                  <string name="toast2">sending score</string>
+            
+        
+      <string name="no_of_teams">Teams</string>
+      <string name="no_of_subtasks">Subtasks</string>   
+         
+         
+    
+
+</resources>

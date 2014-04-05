@@ -1,0 +1,38 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" >
+
+      <TextView
+          android:id="@+id/txtAuthor"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="4dp"
+          android:gravity="center"
+          android:layout_alignParentTop="true"
+          android:text="@string/pref_default_quote_author" />
+
+      <FrameLayout
+	      android:id="@+id/framePicture"
+	      android:layout_above="@+id/txtQuote"
+          android:layout_below="@id/txtAuthor"          
+          android:layout_width="match_parent"
+          android:layout_height="0dp" >
+	      <ImageView
+	          android:id="@+id/imgPicture"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_margin="10dp"
+	          android:contentDescription="@string/main_image_description"
+	          android:src="@drawable/ic_launcher"
+	          android:layout_gravity="center"/>
+	  </FrameLayout>
+      <TextView
+          android:id="@id/txtQuote"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="4dp"
+          android:gravity="center" 
+          android:layout_alignParentBottom="true"
+          android:text="@string/pref_default_quote_text" />
+
+  </RelativeLayout>
