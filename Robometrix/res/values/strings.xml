@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoboMetrix Remote Control</string>
+    <string name="version">version 1.0.1</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Activity names -->
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_Settings">Settings</string>
+    
+    <!--  Button names -->
+    <string name="phoneMic">Phone Mic On/Off</string>
+    <string name="turnSpeed">Turn Speed</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="speaker">Speaker On/Off</string>
+    <string name="reverseCamera">Reverse Camera</string>
+    <string name="eStop">E-Stop</string>
+    <string name="up">Camera Up</string>
+    <string name="down">Camera Down</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+     
+    <string name="help">Help</string>
+    <string name="description">Remote control application for a RoboMetrix VisitorBot. 
+         For help or further details visit the RoboMetrix website.\nhttp://robometrix.com/ </string>
+         
+    <!-- Settings menu -->
+    <string name="DTMF_tone_picker">Command tone length</string>
+    <string name="DTMF_tonelength_summary">Length of command tones (msec)</string>
+    <string name="inter_tone_delay">Inter-tone delay</string>
+    <string name="inter_tone_delay_summary">Delay between repeated joystick commands (msec)</string>
+    <string name="dwell_delay">Dwell delay</string>
+    <string name="dwell_delay_summary">Delay before the joystick sends a command (msec)</string>
+    
+    
+    
+    
+
+</resources>

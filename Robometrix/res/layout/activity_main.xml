@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Menu" >
+
+    <LinearLayout
+        android:id="@+id/Layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/Layout3"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/phoneMic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/phoneMic" />
+            <!-- android:background="@drawable/rectangle" -->
+
+            <Button
+                android:id="@+id/turnSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/turnSpeed" />
+            <!-- android:background="@drawable/rectangle" -->
+
+            <Button
+                android:id="@+id/calibrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/calibrate"/>
+            <!-- android:background="@drawable/rectangle" -->
+
+            <ImageButton
+                android:id="@+id/up"
+                android:layout_width="87dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/up"
+                android:src="@drawable/ic_uparrow" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/up" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout4"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/speaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/speaker"/>
+            <!-- android:background="@drawable/rectangle" -->
+
+            <Button
+                android:id="@+id/reverseCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/reverseCamera" />
+            <!-- android:background="@drawable/rectangle" -->
+
+            <Button
+                android:id="@+id/eStop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/eStop"/>
+            <!-- android:background="@drawable/rectangle" -->
+
+            <ImageButton
+                android:id="@+id/down"
+                android:layout_width="87dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/down"
+                android:src="@drawable/ic_downarrow"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/down" />
+        </LinearLayout>
+    </LinearLayout>
+	
+    
+    <TextView
+        android:id="@+id/forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forward"
+        android:layout_gravity="center"/>
+    
+    <LinearLayout
+        android:id="@+id/Layout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+    
+        <TextView
+	        android:id="@+id/left"
+	        android:layout_width="13dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/left"
+	        android:layout_gravity="center"
+	        android:paddingRight="5dp"/>
+        
+	    <com.robometrix.JoystickController
+	        android:id="@+id/joystick"
+	        android:layout_width="225dp"
+	        android:layout_height="225dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_weight="1"
+	        custom:backgroundColor="@android:color/darker_gray"
+	        custom:foregroundColor="@android:color/black" />
+	    
+	    <TextView
+	        android:id="@+id/right"
+	        android:layout_width="13dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/right"
+	        android:layout_gravity="center"
+	        android:paddingLeft="5dp"/>
+   </LinearLayout>
+    
+    <TextView
+        android:id="@+id/backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backward"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    			  xmlns:picker="http://schemas.android.com/apk/res/com.robometrix">
+    	<EditTextPreference
+            android:defaultValue="100"
+            android:title="@string/DTMF_tone_picker"
+            android:key="DTMFToneLength"
+            android:summary="@string/DTMF_tonelength_summary" 
+            android:inputType="number" />
+    			  
+    	<EditTextPreference
+            android:defaultValue="3000"
+            android:title="@string/inter_tone_delay"
+            android:key="interToneDelay"
+            android:summary="@string/inter_tone_delay_summary" 
+            android:inputType="number" />
+    			  
+</PreferenceScreen>
